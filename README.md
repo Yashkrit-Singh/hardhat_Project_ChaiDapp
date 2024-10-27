@@ -61,10 +61,10 @@ This project is a decentralized application (DApp) where users can "buy chai" by
    npx hardhat node
 
 2. Deploy the Contract:
-   - In a new terminal, deploy the contract (on local hardhat environment network):
+   - In a new terminal, deploy the contract on the local Hardhat network:
   
            npx hardhat run scripts/deploy.js --network localhost
-   - To deploy the contract to a testnet (like Sepolia), update the hardhat.config.cjs with your API keys and deploy it:
+   - To deploy the contract to a testnet (like Sepolia), update the hardhat.config.cjs file with your API keys and deploy it:
   
            npx hardhat run scripts/deploy.js --network sepolia
 
@@ -75,9 +75,9 @@ This project is a decentralized application (DApp) where users can "buy chai" by
 
 
 ## Usage
-Connect Wallet: Open the DApp and connect your Metamask wallet.
-Buy Chai: Enter your name, message, and click "Pay" to send ETH along with your message.
-View Memos: All messages and transactions are displayed in the "Memos" section.
+  - Connect Wallet: Open the DApp and connect your Metamask wallet.
+  - Buy Chai: Enter your name, message, and click "Pay" to send ETH along with your message.
+  - View Memos: All messages and transactions are displayed in the "Memos" section.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
