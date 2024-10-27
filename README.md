@@ -61,10 +61,10 @@ This project is a decentralized application (DApp) where users can "buy chai" by
    npx hardhat node
 
 2. Deploy the Contract:
-  A. In a new terminal, deploy the contract (on test network):
+   - In a new terminal, deploy the contract (on test network):
   
            npx hardhat run scripts/deploy.js --network localhost
-  B. To deploy the contract to a testnet (like Sepolia), update the hardhat.config.cjs with your API keys and deploy it:
+   - To deploy the contract to a testnet (like Sepolia), update the hardhat.config.cjs with your API keys and deploy it:
   
            npx hardhat run scripts/deploy.js --network sepolia
 
