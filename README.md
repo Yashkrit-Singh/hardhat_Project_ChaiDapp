@@ -62,16 +62,17 @@ This project is a decentralized application (DApp) where users can "buy chai" by
 
 2. Deploy the Contract:
   A. In a new terminal, deploy the contract (on test network):
+  
            npx hardhat run scripts/deploy.js --network localhost
   B. To deploy the contract to a testnet (like Sepolia), update the hardhat.config.cjs with your API keys and deploy it:
+  
            npx hardhat run scripts/deploy.js --network sepolia
 
-3. Run the Frontend:
+4. Run the Frontend:
    ```bash
    cd client
    npm start
 
-## Contract Deployment
 
 ## Usage
 Connect Wallet: Open the DApp and connect your Metamask wallet.
